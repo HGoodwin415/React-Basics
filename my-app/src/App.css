@@ -1,0 +1,38 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  background-color: burlywood;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+  color: aqua;
+}
+
+header {
+  background-color: darkslategray;
+  border: 1px solid wheat;
+}
+
+footer {
+  background-color: darkgrey;
+}
